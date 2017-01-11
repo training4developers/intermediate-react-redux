@@ -6,7 +6,7 @@ import {refreshWidgets} from "../actions/refresh-widgets";
 import {AppState} from "../app-state";
 import {WidgetTable} from "../components/widget-table";
 
-const mapStateToProps = (state: AppState) => ({
+const mapStateToProps: any = (state: AppState) => ({
     widgets: state.widgets,
 });
 

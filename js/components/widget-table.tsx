@@ -7,7 +7,7 @@ interface WidgetTableProps {
     refreshWidgets: Function;
 }
 
-export class WidgetTable extends React.PureComponent<WidgetTableProps> {
+export class WidgetTable extends React.Component<WidgetTableProps, void> {
 
     public static propTypes = {
         refreshWidgets: React.PropTypes.func.isRequired,
